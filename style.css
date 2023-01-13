@@ -6,14 +6,38 @@ body{
     height: 100%;
     background-color: rgba(238, 249, 191, 1);
 }
+main{
+    padding-left: 3%;
+    padding-right: 3%;
+}
 header{
     display: flex;
+    padding-left: -122px;;
     width: 100%;
-    height: 20vw;
+    height: 150px;
     font-size: 56px;
     font-family: Roboto, sans-serif;
     font-weight: 700;
     color:rgba(117, 183, 158, 1);
     justify-content: center;
     align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 146px;
+    background-color: rgba(153, 206, 168, 1);
+    border-color: rgba(167, 233, 175, 1);
+    border-radius: 5px;
+}
+.boxCard{
+    display: flex;
+    margin-bottom: 34px;
+    justify-content: space-evenly;
+}
+img{
+    width: 100px;
+    height: 100px;
 }
