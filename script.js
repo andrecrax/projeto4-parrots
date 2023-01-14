@@ -7,6 +7,7 @@ function iniciarJogo(){
     }
 }
 iniciarJogo();
+criarDivs(numeroCartas);
 
 
 
@@ -28,7 +29,20 @@ iniciarJogo();
 
 
 
-
+function criarDivs(numeroCartas) {
+    let boxCard = document.querySelector(".boxCard");
+    for (let i = 0; i < numeroCartas; i++) {
+      let novaDiv = document.createElement("div");
+      novaDiv.classList.add("card");
+      let img = document.createElement("img");
+      img.src = "/archive/back.png";
+      novaDiv.appendChild(img);
+      boxCard.appendChild(novaDiv);
+    }
+  }
+  
+  
+  
 
 
 

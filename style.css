@@ -33,8 +33,10 @@ header{
     border-radius: 5px;
 }
 .boxCard{
-    display: flex;
+    display: grid;
     margin-bottom: 34px;
+    gap:34px;
+    grid-template-columns: repeat(auto-fit, 100px);
     justify-content: space-evenly;
 }
 img{
