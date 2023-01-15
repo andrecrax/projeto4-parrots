@@ -78,8 +78,8 @@ function createCards() {
     for (let i = 0; i < numberCards; i++) {
 
       let card = document.createElement("div");
-      let backImg = document.createElement("img");
-      backImg.src = `/archive/${shuffleDoubleCharacters[i]}.gif`;
+      let upImg = document.createElement("img");
+      upImg.src = `/archive/${shuffleDoubleCharacters[i]}.gif`;
       let parrot = document.createElement("img");
       parrot.src = "/archive/back.png";
       let front = document.createElement("div");
@@ -92,11 +92,18 @@ function createCards() {
       
       grid.appendChild(card);
       card.appendChild(front);
-      front.appendChild(backImg);
+      front.appendChild(upImg);
+      upImg.setAttribute('data-test', 'face-up-image');
+      /* let frontDiv = document.querySelector('.front');
+      let img = frontDiv.querySelector('img');
+      img.setAttribute('data-test', 'face-up-image'); */
+
+      
+      parrot.setAttribute('data-test', 'face-down-image');
       back.appendChild(parrot);
       card.appendChild(back);
       card.setAttribute('data-caracter',shuffleDoubleCharacters[i]);
-
+      card.setAttribute('data-test', `card`);
       card.addEventListener("click", (event) => revealCard(event.currentTarget));
     }
   }
