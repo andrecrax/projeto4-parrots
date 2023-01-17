@@ -24,7 +24,7 @@ function endGame(){
   }
 }
 function iniciarJogo(){
-    numberCards = prompt("Digite com quantas cartas quer jogar:");
+    numberCards = prompt("Digite com quantas cartas quer jogar (mínimo de 4 cartas e máximo de 14):");
     if(numberCards % 2 != 0 || numberCards < 4 || numberCards > 14){
         iniciarJogo();
     }
