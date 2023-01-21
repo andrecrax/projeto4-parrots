@@ -4,7 +4,7 @@
 Seu segundo projeto com JavaScript será a implementação do jogo Parrot Card Game, um jogo da memória temático com aleatoriedade, efeitos e transição, responsividade e papagaios dançantes!
 
 
-# :link: <a href="https://projeto3-driveneats-jftym2w3v-andrecrax.vercel.app/">Acesse o Vercel aqui</a>
+# :link: <a href="https://projeto4-parrots-omega.vercel.app/">Acesse o Vercel aqui</a>
 
 
 # :white_check_mark: Requisitos<br>
