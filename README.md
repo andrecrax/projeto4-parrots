@@ -13,7 +13,7 @@ Seu segundo projeto com JavaScript será a implementação do jogo Parrot Card G
   :small_blue_diamond: Ao entrar no jogo, o usuário deverá ser perguntado com quantas cartas quer jogar (utilize prompt).<br>
   :small_blue_diamond: O usuário só poderá inserir números pares no prompt, de 4 a 14. Qualquer número que fuja dessa regra não deve ser aceito. No caso de números inválidos, o prompt deverá ficar sendo repetido em loop, até que o usuário coloque um número válido.<br>
   :small_blue_diamond: Após inserir um número de cartas válido, o jogo deverá inserir as cartas viradas pra baixo na página de forma que a distribuição seja aleatória.<br>
-  :small_blue_diamond: É obrigatório que tanto a imagem do papagaio virado pra baixo quanto a imagem virada pra cima (gif) sejam implementadas como tag <img src="..."> (não deve ser um background).<br>
+  :small_blue_diamond: É obrigatório que tanto a imagem do papagaio virado pra baixo quanto a imagem virada pra cima (gif) sejam implementadas como tag img src="..." (não deve ser um background).<br>
   :small_blue_diamond: Papagaios iguais devem necessariamente usar a mesma imagem como base (não podem ser arquivos diferentes para um mesmo papagaio).<br>
   :small_blue_diamond: Ao clicar em uma carta, ela deve ser virada.<br>
   :small_blue_diamond: Caso seja a primeira carta do par, ela deve permanecer virada até o usuário escolher a segunda carta.<br>
